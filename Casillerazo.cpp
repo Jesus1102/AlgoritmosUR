@@ -10,8 +10,7 @@ int main(){
     int random, Eleccion;
 
     random = rand()%2;
-    
-    cout << random << endl;
+      
 
     cout << "Eliga una opcion:" << endl;
     cout << "0. para cara" << endl;
