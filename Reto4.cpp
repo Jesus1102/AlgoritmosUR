@@ -20,7 +20,18 @@ int main(){
     if (random == Eleccion){
         cout << "Es un empate" << endl;
     }
+    else if(Eleccion == 0 && random == 2){
+        cout << "ganaste" << endl;
+    }
+    else if(Eleccion == 1 && random == 0){
+        cout << "ganaste" << endl;
+    }
+    else if(Eleccion == 2 && random == 1){
+        cout << "ganaste" << endl;
+    }
+    else{
+        cout << "Perdiste" << endl;
+    }
     
-
     return 0;
 }
