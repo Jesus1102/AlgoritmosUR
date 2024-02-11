@@ -33,8 +33,17 @@ int main(){
         cout << "ganaste" << endl;
         break;
     }
-    {
+    while(Eleccion == 2 && random == 0){
         cout << "Perdiste" << endl;
+        break;
+    }
+    while(Eleccion == 1 && random == 2){
+        cout << "Perdiste" << endl;
+        break;
+    }
+    while(Eleccion == 0 && random == 1){
+        cout << "Perdiste" << endl;
+        break;
     }
     
     return 0;
