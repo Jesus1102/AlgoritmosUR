@@ -23,6 +23,14 @@ int main(){
     raiz1  = sqrt(num1) ;
     raiz2  = sqrt(num2) ;
 
+    cout << "la suma de los numeros es: " << suma << endl;
+    cout << "la resta de los numeros es: " << resta << endl;
+    cout << "la multiplicacion de los numeros es: " << multiplicacion << endl;
+    cout << "la division de los numeros es: " << division << endl;
+    cout << "la potencia de los numeros es: " << potencia1 << "y" << potencia2 << endl;
+    cout << "la raiz de los numeros es: " << raiz1 << "y" << raiz2 << endl;
+
+
 
     return 0;
 }
