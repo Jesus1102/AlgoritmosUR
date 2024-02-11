@@ -20,9 +20,10 @@ int main(){
     division = num1 / num2 ;
     potencia1 = num1 * num1 ;
     potencia2 = num2 * num2 ;
-    raiz1  = sqrt(num1) ;
-    raiz2  = sqrt(num2) ;
-
+    if(num1 && num2 > 0){
+        raiz1  = sqrt(num1) ;
+        raiz2  = sqrt(num2) ;
+    }
     cout << "la suma de los numeros es: " << suma << endl;
     cout << "la resta de los numeros es: " << resta << endl;
     cout << "la multiplicacion de los numeros es: " << multiplicacion << endl;
