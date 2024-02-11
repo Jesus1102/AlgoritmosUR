@@ -17,19 +17,23 @@ int main(){
     cout << "2. para tijera" << endl;
     cin >> Eleccion ;
 
-    if (random == Eleccion){
+    while (random == Eleccion){
         cout << "Es un empate" << endl;
+        break;
     }
-    else if(Eleccion == 0 && random == 2){
+    while(Eleccion == 0 && random == 2){
         cout << "ganaste" << endl;
+        break;
     }
-    else if(Eleccion == 1 && random == 0){
+    while(Eleccion == 1 && random == 0){
         cout << "ganaste" << endl;
+        break;
     }
-    else if(Eleccion == 2 && random == 1){
+    while(Eleccion == 2 && random == 1){
         cout << "ganaste" << endl;
+        break;
     }
-    else{
+    {
         cout << "Perdiste" << endl;
     }
     
