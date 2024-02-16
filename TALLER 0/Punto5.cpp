@@ -13,10 +13,12 @@ int main() {
     cout << "Ingrese la velocidad del segundo carro:: ";
     cin >> v2;
     
-    tiempo = Distancia /(v1-v2);
-    
-    cout << "El tiempo de tiempo en el que se encuentran es: " << timepo << endl;
-    
+    if (v1 <= v2) {
+        cout << "Los automóviles nunca se encuentran o ya se han encontrado." << endl;
+    } else {
+        tiempo = Distancia / (v1 - v2);
+        cout << "El tiempo en el que se encuentran es: " << tiempo << " horas." << endl;
+    }
     
     
 
